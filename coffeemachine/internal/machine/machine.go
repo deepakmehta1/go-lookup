@@ -7,7 +7,7 @@ import (
 	"fmt"
 )
 
-// VendingMachine represents the vending machine.
+// VendingMachine represents the vending machine
 type VendingMachine struct {
 	Inventory        *inventory.Inventory
 	PaymentProcessor *payment.PaymentProcessor
